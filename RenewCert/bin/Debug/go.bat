@@ -1,0 +1,1 @@
+renewcert oldcert.pfx newcert.pfx "CN=MyNewCert" MySuperSecretPassword
