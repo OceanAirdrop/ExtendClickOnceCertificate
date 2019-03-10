@@ -1,4 +1,4 @@
-# ExtendClickOnceCertificate
+# ExtendClickOnceCertificate C# 
 
 This project allows you to "renew" your existing ClickOnce certificate and give it a longer expiry date.  It extends Click Once Certs By 105 years!!!
 
@@ -21,7 +21,8 @@ https://robindotnet.wordpress.com/2010/01/26/how-to-extend-an-existing-certifica
 
 # Usage:
 
-renewcert <PFX File> <new cert filename> <new cert friendly name> (<password>)
+    renewcert oldcert.pfx newcert.pfx "CN=MyNewCert" MyPassword
+
 
 
 
